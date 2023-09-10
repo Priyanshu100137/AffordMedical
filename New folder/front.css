@@ -1,0 +1,46 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container for all trains */
+  div {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Individual train container */
+  .train-container {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Price styling */
+  .price {
+    color: green;
+    font-size: 1.2em;
+  }
+  
+  /* Seats available styling */
+  .seatsAvailable {
+    color: blue;
+  }
+  
+  /* Add some interaction */
+  .train-container:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
